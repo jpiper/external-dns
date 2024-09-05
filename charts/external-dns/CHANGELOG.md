@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed `provider.webhook.resources` behavior to correctly leverage resource limits ([#4560](https://github.com/kubernetes-sigs/external-dns/pull/4560))
 - Fixed `provider.webhook.imagePullPolicy` behavior to correctly leverage pull policy ([#4643](https://github.com/kubernetes-sigs/external-dns/pull/4643)) _@kimsondrup_
 - Add correct webhook metric port to `Service` and `ServiceMonitor` ([#4643](https://github.com/kubernetes-sigs/external-dns/pull/4643)) _@kimsondrup_
+- Added support for `ignore-nodeports` argument @jpiper
 
 ## [v1.14.5] - 2023-06-10
 
